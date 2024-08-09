@@ -1,0 +1,180 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Göksu Doğan </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GoksuCV.styles.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/assests/images/favicon.ico">
+    <link href="~/assests/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="~/assests/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assests/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    @await RenderSectionAsync("Styles", false)
+</head>
+
+<body>
+    <!-- Begin page -->
+    @RenderBody()
+    <div class="row mb-4">
+        <div class="col-xl-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="text-center">
+                        <div>
+                            <img src="/css/Göksu.png" alt="" class="avatar-lg rounded-circle img-thumbnail">
+                        </div>
+                        <h5 class="mt-3 mb-1">Göksu Doğan</h5>
+                        <p class="text-muted">Civil Engineer/Software Developer</p>
+                    </div>
+                    <hr class="my-4">
+                    <div class="text-muted">
+                        <h5 class="font-size-16">Who am I?</h5>
+
+                        <p>I am a civil engineer who graduated in 2018. I have been working in civil engineering for four years. Whether I work for the company or not, I manage projects, and in the meantime, I work a full-time job Decoupled from this. I like working in challenging environments because of my eight years of experience. I consider myself a focused, extremely dedicated team player who produces high-caliber work and has exceptional communication skills. I have been interested in software for about 1 year. I received an education by Acunmedya Academy. I continue to improve myself in this regard. I want to work in a growth-oriented company so that I can apply my skills and progress personally.</p>
+                        <div class="table-responsive mt-4">
+                            <div>
+                                <p class="mb-1">Name :</p>
+                                <h5 class="font-size-16">Göksu Doğan</h5>
+                            </div>
+                            <div class="mt-4">
+                                <p class="mb-1">Mobile :</p>
+                                <h5 class="font-size-16">05378394713</h5>
+                            </div>
+                            <div class="mt-4">
+                                <p class="mb-1">Email :</p>
+                                <h5 class="font-size-16">goksuudogan@gmail.com</h5>
+                            </div>
+                            <div class="mt-4">
+                                <p class="mb-1">Location :</p>
+                                <h5 class="font-size-16">Türkiye, İstanbul/Gaziosmanpaşa</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
+            <div class="card mb-0">
+                <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="About">
+                            <i class="uil uil-clipboard-notes font-size-20"></i>
+                            <span class="d-none d-sm-block">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Projects">
+                            <i class="uil uil-clipboard-notes font-size-20"></i>
+                            <span class="d-none d-sm-block">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">
+                            <i class="uil uil-envelope-alt font-size-20"></i>
+                            <span class="d-none d-sm-block">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content p-4">
+                    <div class="tab-pane active" id="about" role="tabpanel">
+                        <div>
+                            <h4 class="font-size-16 mb-4">Experience</h4>
+                            <ul class="activity-feed mb-0 ps-2">
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">MARCH 2023 - JULY 2024</p>
+                                        <h5 class="font-size-16">Civil Engineer</h5>
+                                        <p>Ak Plus Yapı Denetim, İstanbul</p>
+                                        <p class="text-muted">I looked over the tasks given to the building inspection team. In the field, adherence to the Project was verified. Every document created and followed up on during the Project was prepared. A design was created and the necessary locations for the pouring of concrete were looked for. While the concrete was being poured, I checked it.</p>
+                                    </div>
+                                </li>
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">MARCH 2015 - FEBRUARY 2023</p>
+                                        <h5 class="font-size-16">Manager of Department & Analysis of The Daily Movements of Actual Cash Flow</h5>
+                                        <p>Koton, İstanbul</p>
+                                        <p class="text-muted">Creating Power BI reports, comparing them with reports that are received and reviewing the reports. Reviewing sales information based on products and providing weekly comparisons. Finding the top-selling items. Comparing turnover shares based on products hourly. Conducting monthly cash audits. Providing a score based on the reporting of missing documents and aspects. Regulating the everyday movements of cash. Calculating the daily rates of profit and loss charging. Solving problems quickly and practically at the cash register. Creating weekly work schedules for the crew. Figuring out employee pay and benefits. Resolving any issues pertaining to personnel.</p>
+                                    </div>
+                                </li>
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">JUNE 2017 - JULY 2017</p>
+                                        <h5 class="font-sized-16">Intern Civil Engineer</h5>
+                                        <p>Municipality of Arnavutköy, İstanbul</p>
+                                        <p class="text-muted">I used Autocad for architectural control and 3D Max for static control when it came to construction projects that the municipality received.</p>
+                                    </div>
+                                </li>
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">JUNE 2016 - JULY 2016</p>
+                                        <h5 class="font-sized-16">Intern Civil Engineer</h5>
+                                        <p>Ağaoğlu Group of Companies, İstanbul</p>
+                                        <p class="text-muted">To guarantee overall Project management, I made sure the structures that were assigned to us were followed up on.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <h4 class="font-size-16 mb-4">Education</h4>
+                            <ul class="activity-feed mb-0 ps-2">
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">SEPTEMBER 2014 - JUNE 2018</p>
+                                        <h5 class="font-size-16">Bachelor of Civil Engineering</h5>
+                                        <p>Karabük University</p>
+                                    </div>
+                                </li>
+                                <li class="feed-item">
+                                    <div class="feed-item-list">
+                                        <p class="text-muted mb-1">JUNE 2014</p>
+                                        <p>Sağmalcılar Anatolian High School-İstanbul</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <h4 class="font-size-16 mb-4">Foreign Language & Computer Skills</h4>
+                            <ul class="activity-feed mb-0 ps-2">
+                                <div class="feed-item-list">
+                                    <p>
+                                        English (Upper-Intermediate) <br />
+                                        German (Beginning)<br />
+                                        French (Beginning)<br />
+                                        Ms Office; Excel (advanced), Word (advanced), PowerPoint (advanced)<br />
+                                        Microsoft SQL Server (advanced)<br />
+                                        C# (advanced)<br />
+                                        .NET<br />
+                                        ASP.NET<br />
+                                        Autocad (basic)<br />
+                                        3D Max (basic)<br />
+                                        MS Project (basic)<br />
+                                    </p>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- JAVASCRIPT -->
+        <script src="~/assests/libs/jquery/jquery.min.js"></script>
+        <script src="~/assests/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="~/assests/libs/metismenu/metisMenu.min.js"></script>
+        <script src="~/assests/libs/simplebar/simplebar.min.js"></script>
+        <script src="~/assests/libs/node-waves/waves.min.js"></script>
+        <script src="~/assests/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="~/assests/libs/jquery.counterup/jquery.counterup.min.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/assests/js/app.js"></script>
+        @await RenderSectionAsync("Scripts", false)
+
+
+
+
+</body>
+
+</html>
